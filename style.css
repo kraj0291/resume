@@ -1,0 +1,55 @@
+@media screen and (max-width:992px){
+	.hi p{
+		letter-spacing:unset;
+		line-height: 1em;
+	}
+	body{
+		font-size: 2em;
+	}
+	.HeaderBar a{
+		font-size:3em;	
+	}
+	.icon{
+		font-size: 3em;
+	}
+	.myImg{
+		width: 100%;
+	}
+	h1,h2{
+		font-size: 55%
+	}
+	h3,h4,h5,h6{
+		font-size: 200%;
+	}
+
+}
+
+.header{
+	margin: 0 auto;	
+}
+
+.header > li{
+	margin-right: 40px;
+}
+
+.hi{
+	padding-top: 70px;
+	margin: 50px 60px;
+	letter-spacing: 1px;
+	line-height: 2em;
+	font-size: 1.5em;
+}
+
+td{
+	padding: 5px;
+}
+
+.resumeTable{
+	text-align: center;
+	font-size: 0.75em;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+}
